@@ -1,7 +1,6 @@
 <model>
     <name>Dainty Walker</name>
     <author>Ed Burton</author>
-    <wave amplitude="0.23404256" phase="0.34554338" speed="0.012156863"/>
 
     <nodes>
         <mass id="m0" x="392.49963" y="73.369934" vx="-0.8951623" vy="-0.45419145"/>
@@ -31,13 +30,13 @@
         <spring a="m0" b="m5" restlength="103.32473"/>
         <spring a="m0" b="m2" restlength="148.19601"/>
         <spring a="m1" b="m3" restlength="150.78603"/>
-        <muscle a="m3" b="m4" restlength="79.47956" amplitude="0.5" phase="0.7901786"/>
-        <muscle a="m1" b="m6" restlength="77.7946" amplitude="0.5" phase="0.98660713"/>
-        <muscle a="m6" b="m0" restlength="80.23092" amplitude="0.5" phase="0.7901786"/>
-        <muscle a="m0" b="m8" restlength="78.92401" amplitude="0.5" phase="0.2857143"/>
-        <muscle a="m8" b="m1" restlength="77.16217" amplitude="0.5" phase="0.53125"/>
-        <muscle a="m2" b="m9" restlength="79.47956" amplitude="0.5" phase="0.0"/>
-        <muscle a="m9" b="m3" restlength="79.47956" amplitude="0.5" phase="0.2857143"/>
-        <muscle a="m4" b="m2" restlength="78.77182" amplitude="0.5" phase="0.5401786"/>
+        <muscle a="m3" b="m4" restlength="79.47956" amplitude="0.5"/>
+        <muscle a="m1" b="m6" restlength="77.7946" amplitude="0.5"/>
+        <muscle a="m6" b="m0" restlength="80.23092" amplitude="0.5"/>
+        <muscle a="m0" b="m8" restlength="78.92401" amplitude="0.5"/>
+        <muscle a="m8" b="m1" restlength="77.16217" amplitude="0.5"/>
+        <muscle a="m2" b="m9" restlength="79.47956" amplitude="0.5"/>
+        <muscle a="m9" b="m3" restlength="79.47956" amplitude="0.5"/>
+        <muscle a="m4" b="m2" restlength="78.77182" amplitude="0.5"/>
     </links>
 </model>
